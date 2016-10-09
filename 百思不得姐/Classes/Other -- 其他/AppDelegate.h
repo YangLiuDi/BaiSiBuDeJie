@@ -1,0 +1,18 @@
+//
+//  AppDelegate.h
+//  Best not elder sister
+//
+//  Created by 千锋 on 16/8/17.
+//  Copyright © 2016年 千锋. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "YLDFollowViewController.h"
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+@property(strong,nonatomic)YLDFollowViewController * fVC;
+
+@end
+

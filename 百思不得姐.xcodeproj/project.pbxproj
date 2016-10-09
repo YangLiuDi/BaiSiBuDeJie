@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCB8617F1D8EB6E200CEE0E9 /* UIBarButtonItem+YLDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB8617E1D8EB6E200CEE0E9 /* UIBarButtonItem+YLDExtension.m */; };
+		BCB861BF1D8EC56C00CEE0E9 /* YLDMeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB861BE1D8EC56C00CEE0E9 /* YLDMeCell.m */; };
+		BCB861C21D8EC66C00CEE0E9 /* YLDConst.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB861C11D8EC66C00CEE0E9 /* YLDConst.m */; };
+		BCCB82731D9926D600584CEC /* YLDMeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCB82721D9926D600584CEC /* YLDMeFooterView.m */; };
+		BCCB82761D992E2A00584CEC /* YLDMeSquareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCB82751D992E2A00584CEC /* YLDMeSquareModel.m */; };
+		BCCB82991D9A8A4200584CEC /* YLDMeSquareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCB82981D9A8A4200584CEC /* YLDMeSquareButton.m */; };
+		BCCB82A01D9AAB6600584CEC /* YLDWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCB829E1D9AAB6600584CEC /* YLDWebViewController.m */; };
+		BCCB82A11D9AAB6600584CEC /* YLDWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCCB829F1D9AAB6600584CEC /* YLDWebViewController.xib */; };
+		BCF197441D867E9400B249B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF197431D867E9400B249B1 /* main.m */; };
+		BCF197501D867E9400B249B1 /* _____.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCF1974E1D867E9400B249B1 /* _____.xcdatamodeld */; };
+		BCF197521D867E9400B249B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF197511D867E9400B249B1 /* Assets.xcassets */; };
+		BCF198371D86940400B249B1 /* YLDEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF197841D86940300B249B1 /* YLDEssenceViewController.m */; };
+		BCF198381D86940400B249B1 /* YLDFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF1978A1D86940300B249B1 /* YLDFollowViewController.m */; };
+		BCF198391D86940400B249B1 /* YLDFollowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF1978B1D86940300B249B1 /* YLDFollowViewController.xib */; };
+		BCF1983A1D86940400B249B1 /* YLDRecommendFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF1978D1D86940300B249B1 /* YLDRecommendFollowViewController.m */; };
+		BCF1983B1D86940400B249B1 /* YLDMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF197931D86940300B249B1 /* YLDMeViewController.m */; };
+		BCF1983C1D86940400B249B1 /* YLDSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF197951D86940300B249B1 /* YLDSettingViewController.m */; };
+		BCF1983D1D86940400B249B1 /* YLDNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF1979B1D86940300B249B1 /* YLDNewViewController.m */; };
+		BCF1983E1D86940400B249B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF197A01D86940300B249B1 /* AppDelegate.m */; };
+		BCF1983F1D86940400B249B1 /* YLDLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF197A31D86940400B249B1 /* YLDLoginRegisterViewController.m */; };
+		BCF198401D86940400B249B1 /* YLDLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF197A41D86940400B249B1 /* YLDLoginRegisterViewController.xib */; };
+		BCF198411D86940400B249B1 /* YLDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF197A61D86940400B249B1 /* YLDNavigationController.m */; };
+		BCF198421D86940400B249B1 /* YLDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF197A81D86940400B249B1 /* YLDTabBarController.m */; };
+		BCF198C31D86940400B249B1 /* YLDLoginRegisterTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF198321D86940400B249B1 /* YLDLoginRegisterTextField.m */; };
+		BCF198C41D86940400B249B1 /* YLDQuickLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF198341D86940400B249B1 /* YLDQuickLoginButton.m */; };
+		BCF198C51D86940400B249B1 /* YLDTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF198361D86940400B249B1 /* YLDTabBar.m */; };
+		BCF198CA1D86948A00B249B1 /* UITextField+YLDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF198C71D86948A00B249B1 /* UITextField+YLDExtension.m */; };
+		BCF198CB1D86948A00B249B1 /* UIView+YLDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF198C91D86948A00B249B1 /* UIView+YLDExtension.m */; };
+		FA40233BCBA1FC1CD11AD51E /* libPods-百思不得姐.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB33D7D2653F10836AE8E06B /* libPods-百思不得姐.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E4FBA78B61EA10D3C832526 /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
+		BCB8617D1D8EB6E200CEE0E9 /* UIBarButtonItem+YLDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+YLDExtension.h"; sourceTree = "<group>"; };
+		BCB8617E1D8EB6E200CEE0E9 /* UIBarButtonItem+YLDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+YLDExtension.m"; sourceTree = "<group>"; };
+		BCB861BD1D8EC56C00CEE0E9 /* YLDMeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDMeCell.h; sourceTree = "<group>"; };
+		BCB861BE1D8EC56C00CEE0E9 /* YLDMeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDMeCell.m; sourceTree = "<group>"; };
+		BCB861C01D8EC66C00CEE0E9 /* YLDConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDConst.h; sourceTree = "<group>"; };
+		BCB861C11D8EC66C00CEE0E9 /* YLDConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDConst.m; sourceTree = "<group>"; };
+		BCCB82711D9926D600584CEC /* YLDMeFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDMeFooterView.h; sourceTree = "<group>"; };
+		BCCB82721D9926D600584CEC /* YLDMeFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDMeFooterView.m; sourceTree = "<group>"; };
+		BCCB82741D992E2A00584CEC /* YLDMeSquareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDMeSquareModel.h; sourceTree = "<group>"; };
+		BCCB82751D992E2A00584CEC /* YLDMeSquareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDMeSquareModel.m; sourceTree = "<group>"; };
+		BCCB82971D9A8A4200584CEC /* YLDMeSquareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDMeSquareButton.h; sourceTree = "<group>"; };
+		BCCB82981D9A8A4200584CEC /* YLDMeSquareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDMeSquareButton.m; sourceTree = "<group>"; };
+		BCCB829D1D9AAB6600584CEC /* YLDWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDWebViewController.h; sourceTree = "<group>"; };
+		BCCB829E1D9AAB6600584CEC /* YLDWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDWebViewController.m; sourceTree = "<group>"; };
+		BCCB829F1D9AAB6600584CEC /* YLDWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YLDWebViewController.xib; sourceTree = "<group>"; };
+		BCF1973F1D867E9400B249B1 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF197431D867E9400B249B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCF1974F1D867E9400B249B1 /* _____.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "_____.xcdatamodel"; sourceTree = "<group>"; };
+		BCF197511D867E9400B249B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCF197561D867E9400B249B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF197831D86940300B249B1 /* YLDEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDEssenceViewController.h; sourceTree = "<group>"; };
+		BCF197841D86940300B249B1 /* YLDEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDEssenceViewController.m; sourceTree = "<group>"; };
+		BCF197891D86940300B249B1 /* YLDFollowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDFollowViewController.h; sourceTree = "<group>"; };
+		BCF1978A1D86940300B249B1 /* YLDFollowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDFollowViewController.m; sourceTree = "<group>"; };
+		BCF1978B1D86940300B249B1 /* YLDFollowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YLDFollowViewController.xib; sourceTree = "<group>"; };
+		BCF1978C1D86940300B249B1 /* YLDRecommendFollowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDRecommendFollowViewController.h; sourceTree = "<group>"; };
+		BCF1978D1D86940300B249B1 /* YLDRecommendFollowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDRecommendFollowViewController.m; sourceTree = "<group>"; };
+		BCF197921D86940300B249B1 /* YLDMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDMeViewController.h; sourceTree = "<group>"; };
+		BCF197931D86940300B249B1 /* YLDMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDMeViewController.m; sourceTree = "<group>"; };
+		BCF197941D86940300B249B1 /* YLDSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDSettingViewController.h; sourceTree = "<group>"; };
+		BCF197951D86940300B249B1 /* YLDSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDSettingViewController.m; sourceTree = "<group>"; };
+		BCF1979A1D86940300B249B1 /* YLDNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDNewViewController.h; sourceTree = "<group>"; };
+		BCF1979B1D86940300B249B1 /* YLDNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDNewViewController.m; sourceTree = "<group>"; };
+		BCF1979F1D86940300B249B1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCF197A01D86940300B249B1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCF197A21D86940400B249B1 /* YLDLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDLoginRegisterViewController.h; sourceTree = "<group>"; };
+		BCF197A31D86940400B249B1 /* YLDLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDLoginRegisterViewController.m; sourceTree = "<group>"; };
+		BCF197A41D86940400B249B1 /* YLDLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YLDLoginRegisterViewController.xib; sourceTree = "<group>"; };
+		BCF197A51D86940400B249B1 /* YLDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDNavigationController.h; sourceTree = "<group>"; };
+		BCF197A61D86940400B249B1 /* YLDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDNavigationController.m; sourceTree = "<group>"; };
+		BCF197A71D86940400B249B1 /* YLDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDTabBarController.h; sourceTree = "<group>"; };
+		BCF197A81D86940400B249B1 /* YLDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDTabBarController.m; sourceTree = "<group>"; };
+		BCF1980B1D86940400B249B1 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BCF198311D86940400B249B1 /* YLDLoginRegisterTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDLoginRegisterTextField.h; sourceTree = "<group>"; };
+		BCF198321D86940400B249B1 /* YLDLoginRegisterTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDLoginRegisterTextField.m; sourceTree = "<group>"; };
+		BCF198331D86940400B249B1 /* YLDQuickLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDQuickLoginButton.h; sourceTree = "<group>"; };
+		BCF198341D86940400B249B1 /* YLDQuickLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDQuickLoginButton.m; sourceTree = "<group>"; };
+		BCF198351D86940400B249B1 /* YLDTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDTabBar.h; sourceTree = "<group>"; };
+		BCF198361D86940400B249B1 /* YLDTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDTabBar.m; sourceTree = "<group>"; };
+		BCF198C61D86948A00B249B1 /* UITextField+YLDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+YLDExtension.h"; sourceTree = "<group>"; };
+		BCF198C71D86948A00B249B1 /* UITextField+YLDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+YLDExtension.m"; sourceTree = "<group>"; };
+		BCF198C81D86948A00B249B1 /* UIView+YLDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YLDExtension.h"; sourceTree = "<group>"; };
+		BCF198C91D86948A00B249B1 /* UIView+YLDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YLDExtension.m"; sourceTree = "<group>"; };
+		EB33D7D2653F10836AE8E06B /* libPods-百思不得姐.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6FCE21E3ABB18145F113D6E /* Pods-百思不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCF1973C1D867E9400B249B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA40233BCBA1FC1CD11AD51E /* libPods-百思不得姐.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6972AEBBDD91C44B5609B993 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB33D7D2653F10836AE8E06B /* libPods-百思不得姐.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCF197361D867E9400B249B1 = {
+			isa = PBXGroup;
+			children = (
+				BCF197411D867E9400B249B1 /* 百思不得姐 */,
+				BCF197421D867E9400B249B1 /* Supporting Files */,
+				BCF197401D867E9400B249B1 /* Products */,
+				EE79916FAB0BE956C027C4F7 /* Pods */,
+				6972AEBBDD91C44B5609B993 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCF197401D867E9400B249B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCF1973F1D867E9400B249B1 /* 百思不得姐.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCF197411D867E9400B249B1 /* 百思不得姐 */ = {
+			isa = PBXGroup;
+			children = (
+				BCF197801D86940300B249B1 /* Classes */,
+			);
+			path = "百思不得姐";
+			sourceTree = "<group>";
+		};
+		BCF197421D867E9400B249B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCF197431D867E9400B249B1 /* main.m */,
+				BCF197511D867E9400B249B1 /* Assets.xcassets */,
+				BCF197561D867E9400B249B1 /* Info.plist */,
+				BCF1974E1D867E9400B249B1 /* _____.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			path = "百思不得姐";
+			sourceTree = "<group>";
+		};
+		BCF197801D86940300B249B1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BCF197811D86940300B249B1 /* Essence -- 精华 */,
+				BCF197871D86940300B249B1 /* Follow -- 关注 */,
+				BCF197901D86940300B249B1 /* Me -- 我 */,
+				BCF197981D86940300B249B1 /* New -- 新帖 */,
+				BCF1979E1D86940300B249B1 /* Other -- 其他 */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BCF197811D86940300B249B1 /* Essence -- 精华 */ = {
+			isa = PBXGroup;
+			children = (
+				BCF197821D86940300B249B1 /* Controller */,
+				BCF197851D86940300B249B1 /* Model */,
+				BCF197861D86940300B249B1 /* View */,
+			);
+			path = "Essence -- 精华";
+			sourceTree = "<group>";
+		};
+		BCF197821D86940300B249B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCF197831D86940300B249B1 /* YLDEssenceViewController.h */,
+				BCF197841D86940300B249B1 /* YLDEssenceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCF197851D86940300B249B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCF197861D86940300B249B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCF197871D86940300B249B1 /* Follow -- 关注 */ = {
+			isa = PBXGroup;
+			children = (
+				BCF197881D86940300B249B1 /* Controller */,
+				BCF1978E1D86940300B249B1 /* Model */,
+				BCF1978F1D86940300B249B1 /* View */,
+			);
+			path = "Follow -- 关注";
+			sourceTree = "<group>";
+		};
+		BCF197881D86940300B249B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCF197891D86940300B249B1 /* YLDFollowViewController.h */,
+				BCF1978A1D86940300B249B1 /* YLDFollowViewController.m */,
+				BCF1978B1D86940300B249B1 /* YLDFollowViewController.xib */,
+				BCF1978C1D86940300B249B1 /* YLDRecommendFollowViewController.h */,
+				BCF1978D1D86940300B249B1 /* YLDRecommendFollowViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCF1978E1D86940300B249B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCF1978F1D86940300B249B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCF197901D86940300B249B1 /* Me -- 我 */ = {
+			isa = PBXGroup;
+			children = (
+				BCF197911D86940300B249B1 /* Controller */,
+				BCF197961D86940300B249B1 /* Model */,
+				BCF197971D86940300B249B1 /* View */,
+			);
+			path = "Me -- 我";
+			sourceTree = "<group>";
+		};
+		BCF197911D86940300B249B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCF197921D86940300B249B1 /* YLDMeViewController.h */,
+				BCF197931D86940300B249B1 /* YLDMeViewController.m */,
+				BCF197941D86940300B249B1 /* YLDSettingViewController.h */,
+				BCF197951D86940300B249B1 /* YLDSettingViewController.m */,
+				BCCB829D1D9AAB6600584CEC /* YLDWebViewController.h */,
+				BCCB829E1D9AAB6600584CEC /* YLDWebViewController.m */,
+				BCCB829F1D9AAB6600584CEC /* YLDWebViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCF197961D86940300B249B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCCB82741D992E2A00584CEC /* YLDMeSquareModel.h */,
+				BCCB82751D992E2A00584CEC /* YLDMeSquareModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCF197971D86940300B249B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCB861BD1D8EC56C00CEE0E9 /* YLDMeCell.h */,
+				BCB861BE1D8EC56C00CEE0E9 /* YLDMeCell.m */,
+				BCCB82711D9926D600584CEC /* YLDMeFooterView.h */,
+				BCCB82721D9926D600584CEC /* YLDMeFooterView.m */,
+				BCCB82971D9A8A4200584CEC /* YLDMeSquareButton.h */,
+				BCCB82981D9A8A4200584CEC /* YLDMeSquareButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCF197981D86940300B249B1 /* New -- 新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				BCF197991D86940300B249B1 /* Controller */,
+				BCF1979C1D86940300B249B1 /* Model */,
+				BCF1979D1D86940300B249B1 /* View */,
+			);
+			path = "New -- 新帖";
+			sourceTree = "<group>";
+		};
+		BCF197991D86940300B249B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCF1979A1D86940300B249B1 /* YLDNewViewController.h */,
+				BCF1979B1D86940300B249B1 /* YLDNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCF1979C1D86940300B249B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCF1979D1D86940300B249B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCF1979E1D86940300B249B1 /* Other -- 其他 */ = {
+			isa = PBXGroup;
+			children = (
+				BCF1980B1D86940400B249B1 /* PrefixHeader.pch */,
+				BCF1979F1D86940300B249B1 /* AppDelegate.h */,
+				BCF197A01D86940300B249B1 /* AppDelegate.m */,
+				BCF197A11D86940300B249B1 /* Controller */,
+				BCF197DC1D86940400B249B1 /* Model */,
+				BCF198301D86940400B249B1 /* View */,
+			);
+			path = "Other -- 其他";
+			sourceTree = "<group>";
+		};
+		BCF197A11D86940300B249B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCF197A21D86940400B249B1 /* YLDLoginRegisterViewController.h */,
+				BCF197A31D86940400B249B1 /* YLDLoginRegisterViewController.m */,
+				BCF197A41D86940400B249B1 /* YLDLoginRegisterViewController.xib */,
+				BCF197A51D86940400B249B1 /* YLDNavigationController.h */,
+				BCF197A61D86940400B249B1 /* YLDNavigationController.m */,
+				BCF197A71D86940400B249B1 /* YLDTabBarController.h */,
+				BCF197A81D86940400B249B1 /* YLDTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCF197DC1D86940400B249B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCF198301D86940400B249B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCF198C61D86948A00B249B1 /* UITextField+YLDExtension.h */,
+				BCF198C71D86948A00B249B1 /* UITextField+YLDExtension.m */,
+				BCF198C81D86948A00B249B1 /* UIView+YLDExtension.h */,
+				BCF198C91D86948A00B249B1 /* UIView+YLDExtension.m */,
+				BCF198311D86940400B249B1 /* YLDLoginRegisterTextField.h */,
+				BCF198321D86940400B249B1 /* YLDLoginRegisterTextField.m */,
+				BCF198331D86940400B249B1 /* YLDQuickLoginButton.h */,
+				BCF198341D86940400B249B1 /* YLDQuickLoginButton.m */,
+				BCF198351D86940400B249B1 /* YLDTabBar.h */,
+				BCF198361D86940400B249B1 /* YLDTabBar.m */,
+				BCB8617D1D8EB6E200CEE0E9 /* UIBarButtonItem+YLDExtension.h */,
+				BCB8617E1D8EB6E200CEE0E9 /* UIBarButtonItem+YLDExtension.m */,
+				BCB861C01D8EC66C00CEE0E9 /* YLDConst.h */,
+				BCB861C11D8EC66C00CEE0E9 /* YLDConst.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE79916FAB0BE956C027C4F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6FCE21E3ABB18145F113D6E /* Pods-百思不得姐.debug.xcconfig */,
+				7E4FBA78B61EA10D3C832526 /* Pods-百思不得姐.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCF1973E1D867E9400B249B1 /* 百思不得姐 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF197591D867E9400B249B1 /* Build configuration list for PBXNativeTarget "百思不得姐" */;
+			buildPhases = (
+				34FD91CF216494B8DC898E07 /* [CP] Check Pods Manifest.lock */,
+				BCF1973B1D867E9400B249B1 /* Sources */,
+				BCF1973C1D867E9400B249B1 /* Frameworks */,
+				BCF1973D1D867E9400B249B1 /* Resources */,
+				3A3C151CC40B933BF87B42A9 /* [CP] Embed Pods Frameworks */,
+				B7B6A0C6AA2ADA38E984FB77 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "百思不得姐";
+			productName = "百思不得姐";
+			productReference = BCF1973F1D867E9400B249B1 /* 百思不得姐.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCF197371D867E9400B249B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YLD;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Mabin;
+				TargetAttributes = {
+					BCF1973E1D867E9400B249B1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BCF1973A1D867E9400B249B1 /* Build configuration list for PBXProject "百思不得姐" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCF197361D867E9400B249B1;
+			productRefGroup = BCF197401D867E9400B249B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCF1973E1D867E9400B249B1 /* 百思不得姐 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCF1973D1D867E9400B249B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF198401D86940400B249B1 /* YLDLoginRegisterViewController.xib in Resources */,
+				BCF197521D867E9400B249B1 /* Assets.xcassets in Resources */,
+				BCF198391D86940400B249B1 /* YLDFollowViewController.xib in Resources */,
+				BCCB82A11D9AAB6600584CEC /* YLDWebViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34FD91CF216494B8DC898E07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3A3C151CC40B933BF87B42A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7B6A0C6AA2ADA38E984FB77 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCF1973B1D867E9400B249B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF1983F1D86940400B249B1 /* YLDLoginRegisterViewController.m in Sources */,
+				BCF198421D86940400B249B1 /* YLDTabBarController.m in Sources */,
+				BCF1983B1D86940400B249B1 /* YLDMeViewController.m in Sources */,
+				BCF198C51D86940400B249B1 /* YLDTabBar.m in Sources */,
+				BCF1983C1D86940400B249B1 /* YLDSettingViewController.m in Sources */,
+				BCB8617F1D8EB6E200CEE0E9 /* UIBarButtonItem+YLDExtension.m in Sources */,
+				BCF1983E1D86940400B249B1 /* AppDelegate.m in Sources */,
+				BCB861BF1D8EC56C00CEE0E9 /* YLDMeCell.m in Sources */,
+				BCF198C31D86940400B249B1 /* YLDLoginRegisterTextField.m in Sources */,
+				BCF1983A1D86940400B249B1 /* YLDRecommendFollowViewController.m in Sources */,
+				BCF198411D86940400B249B1 /* YLDNavigationController.m in Sources */,
+				BCF1983D1D86940400B249B1 /* YLDNewViewController.m in Sources */,
+				BCCB82761D992E2A00584CEC /* YLDMeSquareModel.m in Sources */,
+				BCF198C41D86940400B249B1 /* YLDQuickLoginButton.m in Sources */,
+				BCF197501D867E9400B249B1 /* _____.xcdatamodeld in Sources */,
+				BCCB82A01D9AAB6600584CEC /* YLDWebViewController.m in Sources */,
+				BCF197441D867E9400B249B1 /* main.m in Sources */,
+				BCCB82731D9926D600584CEC /* YLDMeFooterView.m in Sources */,
+				BCF198CA1D86948A00B249B1 /* UITextField+YLDExtension.m in Sources */,
+				BCF198371D86940400B249B1 /* YLDEssenceViewController.m in Sources */,
+				BCB861C21D8EC66C00CEE0E9 /* YLDConst.m in Sources */,
+				BCF198CB1D86948A00B249B1 /* UIView+YLDExtension.m in Sources */,
+				BCF198381D86940400B249B1 /* YLDFollowViewController.m in Sources */,
+				BCCB82991D9A8A4200584CEC /* YLDMeSquareButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BCF197571D867E9400B249B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCF197581D867E9400B249B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCF1975A1D867E9400B249B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6FCE21E3ABB18145F113D6E /* Pods-百思不得姐.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/百思不得姐/Classes/Other -- 其他/PrefixHeader.pch";
+				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mabin.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "百思不得姐/Classes/Other -- 其他/View/百思不得姐-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCF1975B1D867E9400B249B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E4FBA78B61EA10D3C832526 /* Pods-百思不得姐.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/百思不得姐/Classes/Other -- 其他/PrefixHeader.pch";
+				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mabin.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "百思不得姐/Classes/Other -- 其他/View/百思不得姐-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCF1973A1D867E9400B249B1 /* Build configuration list for PBXProject "百思不得姐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF197571D867E9400B249B1 /* Debug */,
+				BCF197581D867E9400B249B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF197591D867E9400B249B1 /* Build configuration list for PBXNativeTarget "百思不得姐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF1975A1D867E9400B249B1 /* Debug */,
+				BCF1975B1D867E9400B249B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BCF1974E1D867E9400B249B1 /* _____.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BCF1974F1D867E9400B249B1 /* _____.xcdatamodel */,
+			);
+			currentVersion = BCF1974F1D867E9400B249B1 /* _____.xcdatamodel */;
+			path = "_____.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BCF197371D867E9400B249B1 /* Project object */;
+}
