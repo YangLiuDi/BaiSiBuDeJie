@@ -13,7 +13,7 @@
 @end
 
 @implementation YLDSettingViewController
-
+//初始化改动
 -(instancetype)init
 {
     return [self initWithStyle:UITableViewStyleGrouped];
